@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CSICON Explorer</string>
+    <string name="about_csicon_title">About CSICON</string>
+    <string name="about_csicon_subtitle">Who we are. What we do. How to contact us.</string>
+    <string name="show_listing_title">Show Guide</string>
+    <string name="show_listing_subtitle">All of the podcasts the network has to offer.</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tomgehrke.csiconexplorer.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/showGuideView"
+            style="@style/activityTile">
+
+            <ImageView
+                style="@style/activityTileThumbnail"
+                android:src="@drawable/csicon_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/showListActivityTitle"
+                    style="@style/activityTileTitle"
+                    android:text="@string/show_listing_title" />
+
+                <TextView
+                    android:id="@+id/showListActivitySubTitle"
+                    style="@style/activityTileSubTitle"
+                    android:text="@string/show_listing_subtitle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/aboutCsiconView"
+            style="@style/activityTile">
+
+            <ImageView
+                style="@style/activityTileThumbnail"
+                android:src="@drawable/csicon_tower" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/aboutCsiconActivityTitle"
+                    style="@style/activityTileTitle"
+                    android:text="@string/about_csicon_title" />
+
+                <TextView
+                    android:id="@+id/aboutCsiconActivitySubTitle"
+                    style="@style/activityTileSubTitle"
+                    android:text="@string/about_csicon_subtitle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView style="@style/appMonogram"/>
+
+    </LinearLayout>
+</ScrollView>
