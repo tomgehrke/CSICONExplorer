@@ -11,7 +11,86 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:id="@+id/show01_tile"
+            style="@style/activityTile">
 
+            <ImageView
+                style="@style/activityTileThumbnail"
+                android:src="@drawable/show01_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/show01ActivityTitle"
+                    style="@style/activityTileTitle"
+                    android:text="@string/show01_title" />
+
+                <TextView
+                    android:id="@+id/show01ActivitySubTitle"
+                    style="@style/activityTileSubTitle"
+                    android:text="@string/show01_subtitle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/show02_tile"
+            style="@style/activityTile">
+
+            <ImageView
+                style="@style/activityTileThumbnail"
+                android:src="@drawable/show02_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/show02ActivityTitle"
+                    style="@style/activityTileTitle"
+                    android:text="@string/show02_title" />
+
+                <TextView
+                    android:id="@+id/show02ActivitySubTitle"
+                    style="@style/activityTileSubTitle"
+                    android:text="@string/show02_subtitle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/show03_tile"
+            style="@style/activityTile">
+
+            <ImageView
+                style="@style/activityTileThumbnail"
+                android:src="@drawable/show03_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/show03ActivityTitle"
+                    style="@style/activityTileTitle"
+                    android:text="@string/show03_title" />
+
+                <TextView
+                    android:id="@+id/show03ActivitySubTitle"
+                    style="@style/activityTileSubTitle"
+                    android:text="@string/show03_subtitle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
 
         <ImageView style="@style/appMonogram"/>
     </LinearLayout>

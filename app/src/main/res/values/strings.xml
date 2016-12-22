@@ -4,4 +4,10 @@
     <string name="about_csicon_subtitle">Who we are. What we do. How to contact us.</string>
     <string name="show_listing_title">Show Guide</string>
     <string name="show_listing_subtitle">All of the podcasts the network has to offer.</string>
+    <string name="show01_title">Coffee With Jeff</string>
+    <string name="show01_subtitle">Hosted by Jeff Kelley</string>
+    <string name="show02_title">Gamepunting</string>
+    <string name="show02_subtitle">Hosted by Eric Eslinger and Phil Bowen</string>
+    <string name="show03_title">Geekdays</string>
+    <string name="show03_subtitle">Hosted by Breki Tomasson</string>
 </resources>
