@@ -10,4 +10,14 @@
     <string name="show02_subtitle">Hosted by Eric Eslinger and Phil Bowen</string>
     <string name="show03_title">Geekdays</string>
     <string name="show03_subtitle">Hosted by Breki Tomasson</string>
+    <string name="show03_description">Geekdays is our daily news and information show, bringing you the latest things from the world of geek culture, every single Geekday!</string>
+    <string name="show03_episode01_title">Geekdays #533: 2016/12/22</string>
+    <string name="show03_episode01_date">December 22, 2016</string>
+    <string name="show03_episode01_description">Automated truck convoys, commercialized space flight, and sex. Yep, it\'s Geekdays.</string>
+    <string name="show03_episode02_title">Geekdays #532: 2016/12/21</string>
+    <string name="show03_episode02_date">December 21, 2016</string>
+    <string name="show03_episode02_description">People are jerks online, women can change their brains, and convenience stores get into the drones game. We\'ve got some good stuff for you today on Geekdays.</string>
+    <string name="show03_episode03_title">Geekdays #531: 2016/12/20</string>
+    <string name="show03_episode03_date">December 20, 2016</string>
+    <string name="show03_episode03_description">Killer Robots, PCs without Porn, and Death Stars. It\'s good to be a Geekdays.</string>
 </resources>

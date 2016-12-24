@@ -25,11 +25,20 @@ public class ShowGuideActivity extends AppCompatActivity {
         //
         // By iterating through each "headcontent" div, we can pull the album art,
         // the podcast name and the byline to be used in the guide.
+        //
+        // "Scraping" could utilize DocumentBuilderFactory and XPathExpression.
+        // http://stackoverflow.com/questions/2971155/what-is-the-fastest-way-to-scrape-html-webpage-in-android
+        //
+        // ...or JSOUP.
+        // http://www.androidbegin.com/tutorial/android-basic-jsoup-tutorial/
+        //
+        // Reading an RSS feed could utilize XmlPullParserFactory and XmlPullParser.
+        // https://www.tutorialspoint.com/android/android_rss_reader.htm
 
         // TODO: Create application function to programmatically create "Activity Tiles"
         //
         // By passing the (downloaded) album art, podcast name and byline to this function, we
-        // can build out the Activity without hardcoding shows.
+        // can build out the Activity without hardcoding individual shows.
 
         // Handling the "Show 01" tile =====================================
         LinearLayout show01Tile = (LinearLayout) findViewById(R.id.show01_tile);
@@ -53,7 +62,7 @@ public class ShowGuideActivity extends AppCompatActivity {
 
             show01Tile.setBackgroundColor(thumbnailPalette.getDarkVibrantColor(0));
 
-            TextView activityTitle = (TextView) findViewById(R.id.show01ActivityTitle);
+            TextView activityTitle = (TextView) findViewById(R.id.show01TitleTextView);
             activityTitle.setTextColor(Color.WHITE);
         }
 
@@ -79,12 +88,12 @@ public class ShowGuideActivity extends AppCompatActivity {
 
             show02Tile.setBackgroundColor(thumbnailPalette.getDarkVibrantColor(0));
 
-            TextView activityTitle = (TextView) findViewById(R.id.show02ActivityTitle);
+            TextView activityTitle = (TextView) findViewById(R.id.show02TitleTextView);
             activityTitle.setTextColor(Color.WHITE);
         }
 
         // Handling the "Show 03" tile =====================================
-        LinearLayout show03Tile = (LinearLayout) findViewById(R.id.show03_tile);
+        LinearLayout show03Tile = (LinearLayout) findViewById(R.id.show03_activity_card);
 
         // Set onClick listener
         if (show03Tile != null) {
@@ -105,7 +114,7 @@ public class ShowGuideActivity extends AppCompatActivity {
 
             show03Tile.setBackgroundColor(thumbnailPalette.getDarkVibrantColor(0));
 
-            TextView activityTitle = (TextView) findViewById(R.id.show03ActivityTitle);
+            TextView activityTitle = (TextView) findViewById(R.id.show03TitleTextView);
             activityTitle.setTextColor(Color.WHITE);
         }
 

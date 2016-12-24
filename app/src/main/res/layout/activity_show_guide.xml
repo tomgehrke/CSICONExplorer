@@ -13,10 +13,10 @@
 
         <LinearLayout
             android:id="@+id/show01_tile"
-            style="@style/activityTile">
+            style="@style/activityCard">
 
             <ImageView
-                style="@style/activityTileThumbnail"
+                style="@style/activityCardThumbnail"
                 android:src="@drawable/show01_logo" />
 
             <LinearLayout
@@ -25,13 +25,13 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/show01ActivityTitle"
-                    style="@style/activityTileTitle"
+                    android:id="@+id/show01TitleTextView"
+                    style="@style/activityCardTitle"
                     android:text="@string/show01_title" />
 
                 <TextView
-                    android:id="@+id/show01ActivitySubTitle"
-                    style="@style/activityTileSubTitle"
+                    android:id="@+id/show01SubtitleTextView"
+                    style="@style/activityCardSubtitle"
                     android:text="@string/show01_subtitle" />
 
             </LinearLayout>
@@ -40,10 +40,10 @@
 
         <LinearLayout
             android:id="@+id/show02_tile"
-            style="@style/activityTile">
+            style="@style/activityCard">
 
             <ImageView
-                style="@style/activityTileThumbnail"
+                style="@style/activityCardThumbnail"
                 android:src="@drawable/show02_logo" />
 
             <LinearLayout
@@ -52,13 +52,13 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/show02ActivityTitle"
-                    style="@style/activityTileTitle"
+                    android:id="@+id/show02TitleTextView"
+                    style="@style/activityCardTitle"
                     android:text="@string/show02_title" />
 
                 <TextView
-                    android:id="@+id/show02ActivitySubTitle"
-                    style="@style/activityTileSubTitle"
+                    android:id="@+id/show02SubtitleTextView"
+                    style="@style/activityCardSubtitle"
                     android:text="@string/show02_subtitle" />
 
             </LinearLayout>
@@ -66,11 +66,11 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/show03_tile"
-            style="@style/activityTile">
+            android:id="@+id/show03_activity_card"
+            style="@style/activityCard">
 
             <ImageView
-                style="@style/activityTileThumbnail"
+                style="@style/activityCardThumbnail"
                 android:src="@drawable/show03_logo" />
 
             <LinearLayout
@@ -79,13 +79,13 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/show03ActivityTitle"
-                    style="@style/activityTileTitle"
+                    android:id="@+id/show03TitleTextView"
+                    style="@style/activityCardTitle"
                     android:text="@string/show03_title" />
 
                 <TextView
-                    android:id="@+id/show03ActivitySubTitle"
-                    style="@style/activityTileSubTitle"
+                    android:id="@+id/show03SubtitleTextView"
+                    style="@style/activityCardSubtitle"
                     android:text="@string/show03_subtitle" />
 
             </LinearLayout>

@@ -13,10 +13,10 @@
 
         <LinearLayout
             android:id="@+id/showGuideView"
-            style="@style/activityTile">
+            style="@style/activityCard">
 
             <ImageView
-                style="@style/activityTileThumbnail"
+                style="@style/activityCardThumbnail"
                 android:src="@drawable/csicon_logo" />
 
             <LinearLayout
@@ -26,12 +26,12 @@
 
                 <TextView
                     android:id="@+id/showListActivityTitle"
-                    style="@style/activityTileTitle"
+                    style="@style/activityCardTitle"
                     android:text="@string/show_listing_title" />
 
                 <TextView
                     android:id="@+id/showListActivitySubTitle"
-                    style="@style/activityTileSubTitle"
+                    style="@style/activityCardSubtitle"
                     android:text="@string/show_listing_subtitle" />
 
             </LinearLayout>
@@ -40,10 +40,10 @@
 
         <LinearLayout
             android:id="@+id/aboutCsiconView"
-            style="@style/activityTile">
+            style="@style/activityCard">
 
             <ImageView
-                style="@style/activityTileThumbnail"
+                style="@style/activityCardThumbnail"
                 android:src="@drawable/csicon_tower" />
 
             <LinearLayout
@@ -53,12 +53,12 @@
 
                 <TextView
                     android:id="@+id/aboutCsiconActivityTitle"
-                    style="@style/activityTileTitle"
+                    style="@style/activityCardTitle"
                     android:text="@string/about_csicon_title" />
 
                 <TextView
                     android:id="@+id/aboutCsiconActivitySubTitle"
-                    style="@style/activityTileSubTitle"
+                    style="@style/activityCardSubtitle"
                     android:text="@string/about_csicon_subtitle" />
 
             </LinearLayout>
