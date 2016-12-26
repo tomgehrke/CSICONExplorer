@@ -12,11 +12,11 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/show01_tile"
-            style="@style/activityCard">
+            android:id="@+id/show01_card"
+            style="@style/showGuideCard">
 
             <ImageView
-                style="@style/activityCardThumbnail"
+                style="@style/showGuideCardThumbnail"
                 android:src="@drawable/show01_logo" />
 
             <LinearLayout
@@ -26,12 +26,12 @@
 
                 <TextView
                     android:id="@+id/show01TitleTextView"
-                    style="@style/activityCardTitle"
+                    style="@style/showGuideCardTitle"
                     android:text="@string/show01_title" />
 
                 <TextView
                     android:id="@+id/show01SubtitleTextView"
-                    style="@style/activityCardSubtitle"
+                    style="@style/showGuideCardSubtitle"
                     android:text="@string/show01_subtitle" />
 
             </LinearLayout>
@@ -39,11 +39,11 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/show02_tile"
-            style="@style/activityCard">
+            android:id="@+id/show02_card"
+            style="@style/showGuideCard">
 
             <ImageView
-                style="@style/activityCardThumbnail"
+                style="@style/showGuideCardThumbnail"
                 android:src="@drawable/show02_logo" />
 
             <LinearLayout
@@ -53,12 +53,12 @@
 
                 <TextView
                     android:id="@+id/show02TitleTextView"
-                    style="@style/activityCardTitle"
+                    style="@style/showGuideCardTitle"
                     android:text="@string/show02_title" />
 
                 <TextView
                     android:id="@+id/show02SubtitleTextView"
-                    style="@style/activityCardSubtitle"
+                    style="@style/showGuideCardSubtitle"
                     android:text="@string/show02_subtitle" />
 
             </LinearLayout>
@@ -66,11 +66,11 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/show03_activity_card"
-            style="@style/activityCard">
+            android:id="@+id/show03_card"
+            style="@style/showGuideCard">
 
             <ImageView
-                style="@style/activityCardThumbnail"
+                style="@style/showGuideCardThumbnail"
                 android:src="@drawable/show03_logo" />
 
             <LinearLayout
@@ -80,19 +80,19 @@
 
                 <TextView
                     android:id="@+id/show03TitleTextView"
-                    style="@style/activityCardTitle"
+                    style="@style/showGuideCardTitle"
                     android:text="@string/show03_title" />
 
                 <TextView
                     android:id="@+id/show03SubtitleTextView"
-                    style="@style/activityCardSubtitle"
+                    style="@style/showGuideCardSubtitle"
                     android:text="@string/show03_subtitle" />
 
             </LinearLayout>
 
         </LinearLayout>
 
-        <ImageView style="@style/appMonogram"/>
+        <ImageView style="@style/appMonogram" />
     </LinearLayout>
 
 </ScrollView>

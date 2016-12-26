@@ -20,4 +20,6 @@
     <string name="show03_episode03_title">Geekdays #531: 2016/12/20</string>
     <string name="show03_episode03_date">December 20, 2016</string>
     <string name="show03_episode03_description">Killer Robots, PCs without Porn, and Death Stars. It\'s good to be a Geekdays.</string>
+    <string name="play_button">Play</string>
+    <string name="stop_button">Stop</string>
 </resources>

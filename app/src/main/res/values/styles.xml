@@ -21,13 +21,13 @@
         <item name="android:src">@drawable/csicon_monogram</item>
     </style>
 
-    <style name="activityCard">
+    <style name="showGuideCard">
         <item name="android:layout_height">@dimen/activity_tile_height</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:elevation">2dp</item>
     </style>
 
-    <style name="activityCardTitle">
+    <style name="showGuideCardTitle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textSize">18sp</item>
@@ -37,7 +37,7 @@
         <item name="android:layout_weight">1</item>
     </style>
 
-    <style name="activityCardSubtitle">
+    <style name="showGuideCardSubtitle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:textSize">12sp</item>
@@ -47,7 +47,7 @@
         <item name="android:layout_weight">1</item>
     </style>
 
-    <style name="activityCardThumbnail">
+    <style name="showGuideCardThumbnail">
         <item name="android:layout_width">@dimen/activity_tile_height</item>
         <item name="android:layout_height">@dimen/activity_tile_height</item>
     </style>
@@ -106,5 +106,38 @@
     <style name="episodeListDescription">
         <item name="android:textSize">12sp</item>
         <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="summaryEpisode">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="summaryEpisodeTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="summaryEpisodeSubtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="summaryEpisodeDescription">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="playToggle">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
     </style>
 </resources>

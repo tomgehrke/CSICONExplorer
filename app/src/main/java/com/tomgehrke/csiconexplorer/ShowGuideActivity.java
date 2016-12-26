@@ -35,22 +35,29 @@ public class ShowGuideActivity extends AppCompatActivity {
         // Reading an RSS feed could utilize XmlPullParserFactory and XmlPullParser.
         // https://www.tutorialspoint.com/android/android_rss_reader.htm
 
-        // TODO: Create application function to programmatically create "Activity Tiles"
+        // TODO: Create application function to programmatically create "Show Cards"
         //
         // By passing the (downloaded) album art, podcast name and byline to this function, we
         // can build out the Activity without hardcoding individual shows.
 
+        // TODO: Pass show identifier to the target Activity so it knows which show to list episodes for
+        // 
+        // Right now selecting any show's "card" will load up the Episode Listing Activity with Geekdays
+        // episodes listed.
+        //
+        // http://stackoverflow.com/questions/19286970/using-intents-to-pass-data-between-activities-in-android
+
         // Handling the "Show 01" tile =====================================
-        LinearLayout show01Tile = (LinearLayout) findViewById(R.id.show01_tile);
+        LinearLayout show01Card = (LinearLayout) findViewById(R.id.show01_card);
 
         // Set onClick listener
-        if (show01Tile != null) {
-            show01Tile.setOnClickListener(new View.OnClickListener() {
+        if (show01Card != null) {
+            show01Card.setOnClickListener(new View.OnClickListener() {
                 // The code in this method will be executed when the numbers View is clicked on.
                 @Override
                 public void onClick(View view) {
-                    Intent showListingIntent = new Intent(ShowGuideActivity.this, EpisodeListingActivity.class);
-                    startActivity(showListingIntent);
+                    Intent showGuideIntent = new Intent(ShowGuideActivity.this, EpisodeListingActivity.class);
+                    startActivity(showGuideIntent);
                 }
             });
         }
@@ -60,23 +67,23 @@ public class ShowGuideActivity extends AppCompatActivity {
         if (show01Bitmap != null && !show01Bitmap.isRecycled()) {
             Palette thumbnailPalette = Palette.from(show01Bitmap).generate();
 
-            show01Tile.setBackgroundColor(thumbnailPalette.getDarkVibrantColor(0));
+            show01Card.setBackgroundColor(thumbnailPalette.getDarkMutedColor(0));
 
             TextView activityTitle = (TextView) findViewById(R.id.show01TitleTextView);
             activityTitle.setTextColor(Color.WHITE);
         }
 
         // Handling the "Show 02" tile =====================================
-        LinearLayout show02Tile = (LinearLayout) findViewById(R.id.show02_tile);
+        LinearLayout show02Card = (LinearLayout) findViewById(R.id.show02_card);
 
         // Set onClick listener
-        if (show02Tile != null) {
-            show02Tile.setOnClickListener(new View.OnClickListener() {
+        if (show02Card != null) {
+            show02Card.setOnClickListener(new View.OnClickListener() {
                 // The code in this method will be executed when the numbers View is clicked on.
                 @Override
                 public void onClick(View view) {
-                    Intent showListingIntent = new Intent(ShowGuideActivity.this, EpisodeListingActivity.class);
-                    startActivity(showListingIntent);
+                    Intent showGuideIntent = new Intent(ShowGuideActivity.this, EpisodeListingActivity.class);
+                    startActivity(showGuideIntent);
                 }
             });
         }
@@ -86,23 +93,23 @@ public class ShowGuideActivity extends AppCompatActivity {
         if (show02Bitmap != null && !show02Bitmap.isRecycled()) {
             Palette thumbnailPalette = Palette.from(show02Bitmap).generate();
 
-            show02Tile.setBackgroundColor(thumbnailPalette.getDarkVibrantColor(0));
+            show02Card.setBackgroundColor(thumbnailPalette.getDarkMutedColor(0));
 
             TextView activityTitle = (TextView) findViewById(R.id.show02TitleTextView);
             activityTitle.setTextColor(Color.WHITE);
         }
 
         // Handling the "Show 03" tile =====================================
-        LinearLayout show03Tile = (LinearLayout) findViewById(R.id.show03_activity_card);
+        LinearLayout show03Card = (LinearLayout) findViewById(R.id.show03_card);
 
         // Set onClick listener
-        if (show03Tile != null) {
-            show03Tile.setOnClickListener(new View.OnClickListener() {
+        if (show03Card != null) {
+            show03Card.setOnClickListener(new View.OnClickListener() {
                 // The code in this method will be executed when the numbers View is clicked on.
                 @Override
                 public void onClick(View view) {
-                    Intent showListingIntent = new Intent(ShowGuideActivity.this, EpisodeListingActivity.class);
-                    startActivity(showListingIntent);
+                    Intent showGuideIntent = new Intent(ShowGuideActivity.this, EpisodeListingActivity.class);
+                    startActivity(showGuideIntent);
                 }
             });
         }
@@ -112,7 +119,7 @@ public class ShowGuideActivity extends AppCompatActivity {
         if (show03Bitmap != null && !show03Bitmap.isRecycled()) {
             Palette thumbnailPalette = Palette.from(show03Bitmap).generate();
 
-            show03Tile.setBackgroundColor(thumbnailPalette.getDarkVibrantColor(0));
+            show03Card.setBackgroundColor(thumbnailPalette.getDarkMutedColor(0));
 
             TextView activityTitle = (TextView) findViewById(R.id.show03TitleTextView);
             activityTitle.setTextColor(Color.WHITE);
