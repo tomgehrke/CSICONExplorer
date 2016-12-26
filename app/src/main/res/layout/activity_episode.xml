@@ -7,13 +7,6 @@
     android:orientation="vertical"
     tools:context="com.tomgehrke.csiconexplorer.EpisodeActivity">
 
-    <!--
-    <TextView
-        android:text="Information about an episode with the option to play it"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    -->
-
     <LinearLayout
         style="@style/episodeListHeader"
         android:layout_width="match_parent"

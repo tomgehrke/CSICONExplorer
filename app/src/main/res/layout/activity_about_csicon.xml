@@ -5,13 +5,6 @@
     android:layout_height="match_parent"
     tools:context="com.tomgehrke.csiconexplorer.AboutCsiconActivity">
 
-    <!--
-    <TextView
-        android:text="Information about the network."
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    -->
-
     <ImageView
         style="@style/aboutBackground"
         android:src="@drawable/about_csicon_tower" />
