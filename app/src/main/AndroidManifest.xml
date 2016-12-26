@@ -21,10 +21,10 @@
             android:label="@string/show_listing_title" />
         <activity
             android:name=".EpisodeListingActivity"
-            android:label="Episodes" />
+            android:label="Episode Listing" />
         <activity
             android:name=".EpisodeActivity"
-            android:label="Episode" />
+            android:label="Listen to Episode" />
         <activity
             android:name=".AboutCsiconActivity"
             android:label="@string/about_csicon_title" />

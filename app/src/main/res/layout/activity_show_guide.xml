@@ -11,6 +11,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!--
+        <TextView
+            android:text="Activity listing all of the available shows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        -->
+
         <LinearLayout
             android:id="@+id/show01_card"
             style="@style/showGuideCard">

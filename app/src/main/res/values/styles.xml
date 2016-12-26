@@ -13,26 +13,26 @@
     </style>
 
     <style name="appMonogram">
-        <item name="android:layout_width">64dp</item>
-        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_width">@dimen/monogram_size</item>
+        <item name="android:layout_height">@dimen/monogram_size</item>
         <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_margin">32dp</item>
+        <item name="android:layout_margin">@dimen/monogram_margin</item>
         <item name="android:alpha">.5</item>
         <item name="android:src">@drawable/csicon_monogram</item>
     </style>
 
     <style name="showGuideCard">
-        <item name="android:layout_height">@dimen/activity_tile_height</item>
+        <item name="android:layout_height">@dimen/item_card_height</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:elevation">2dp</item>
+        <item name="android:elevation">@dimen/item_card_elevation</item>
     </style>
 
     <style name="showGuideCardTitle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/item_card_title_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/item_card_text_left_margin</item>
+        <item name="android:textColor">@color/colorCardTitle</item>
         <item name="android:gravity">bottom</item>
         <item name="android:layout_weight">1</item>
     </style>
@@ -40,104 +40,123 @@
     <style name="showGuideCardSubtitle">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:textColor">#888</item>
+        <item name="android:textSize">@dimen/item_card_subtitle_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/item_card_text_left_margin</item>
+        <item name="android:textColor">@color/colorCardSubtitle</item>
         <item name="android:gravity">top</item>
         <item name="android:layout_weight">1</item>
     </style>
 
     <style name="showGuideCardThumbnail">
-        <item name="android:layout_width">@dimen/activity_tile_height</item>
-        <item name="android:layout_height">@dimen/activity_tile_height</item>
+        <item name="android:layout_width">@dimen/item_card_height</item>
+        <item name="android:layout_height">@dimen/item_card_height</item>
     </style>
 
     <style name="episodeListHeader">
-        <item name="android:background">#eee</item>
-        <item name="android:elevation">6dp</item>
+        <item name="android:background">@color/colorListHeaderBackground</item>
+        <item name="android:elevation">@dimen/header_card_elevation</item>
     </style>
 
     <style name="albumArt">
-        <item name="android:layout_width">128dp</item>
-        <item name="android:layout_height">128dp</item>
+        <item name="android:layout_width">@dimen/album_art_size</item>
+        <item name="android:layout_height">@dimen/album_art_size</item>
     </style>
 
     <style name="summaryShow">
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:paddingBottom">8dp</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">@dimen/show_summary_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/show_summary_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/show_summary_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/show_summary_horizontal_padding</item>
     </style>
 
     <style name="summaryShowTitle">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">@dimen/item_card_title_text_size</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="summaryShowSubtitle">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">@dimen/item_card_subtitle_text_size</item>
         <item name="android:textStyle">italic</item>
     </style>
 
     <style name="summaryShowDescription">
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">@dimen/description_top_margin</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
     </style>
 
     <style name="episodeListCard">
         <item name="android:background">#fff</item>
-        <item name="android:padding">16dp</item>
-        <item name="android:elevation">2dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:padding">@dimen/item_card_padding</item>
+        <item name="android:elevation">@dimen/item_card_elevation</item>
+        <item name="android:layout_marginTop">@dimen/episode_card_margin</item>
+        <item name="android:layout_marginLeft">@dimen/episode_card_margin</item>
+        <item name="android:layout_marginRight">@dimen/episode_card_margin</item>
     </style>
 
     <style name="episodeListTitle">
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">@dimen/item_card_title_text_size</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="episodeListDate">
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">@dimen/item_card_subtitle_text_size</item>
         <item name="android:textStyle">italic</item>
     </style>
 
     <style name="episodeListDescription">
-        <item name="android:textSize">12sp</item>
-        <item name="android:paddingTop">8dp</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+        <item name="android:paddingTop">@dimen/description_top_margin</item>
     </style>
 
     <style name="summaryEpisode">
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:paddingBottom">8dp</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">@dimen/show_summary_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/show_summary_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/show_summary_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/show_summary_horizontal_padding</item>
     </style>
 
     <style name="summaryEpisodeTitle">
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">@dimen/item_card_title_text_size</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="summaryEpisodeSubtitle">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">@dimen/item_card_subtitle_text_size</item>
         <item name="android:textStyle">italic</item>
     </style>
 
     <style name="summaryEpisodeDescription">
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">@dimen/description_top_margin</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
     </style>
 
     <style name="playToggle">
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:paddingBottom">8dp</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingRight">16dp</item>
-        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:paddingTop">@dimen/play_button_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/play_button_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/play_button_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/play_button_horizontal_padding</item>
+        <item name="android:layout_marginTop">@dimen/play_button_margin</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
+
+    <style name="aboutBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="aboutBlock">
+        <item name="android:textColor">@color/colorAboutBlockText</item>
+        <item name="android:textSize">@dimen/standard_text_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/about_box_margin</item>
+        <item name="android:background">@color/colorAboutBlockBackground</item>
+        <item name="android:padding">@dimen/about_box_padding</item>
+    </style>
+
 </resources>

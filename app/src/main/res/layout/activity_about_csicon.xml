@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    style="@style/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.tomgehrke.csiconexplorer.AboutCsiconActivity">
 
-    <LinearLayout
+    <!--
+    <TextView
+        android:text="Information about the network."
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="wrap_content" />
+    -->
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:src="@drawable/csicon_tower" />
-        <ImageView style="@style/appMonogram"/>
-    </LinearLayout>
+    <ImageView
+        style="@style/aboutBackground"
+        android:src="@drawable/about_csicon_tower" />
 
-</ScrollView>
+    <TextView
+        style="@style/aboutBlock"
+        android:text="@string/about_csicon" />
+
+</RelativeLayout>

@@ -1,6 +1,24 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="activity_tile_height">64dp</dimen>
+    <dimen name="item_card_margin">16dp</dimen>
+    <dimen name="item_card_padding">16dp</dimen>
+    <dimen name="item_card_height">64dp</dimen>
+    <dimen name="album_art_size">128dp</dimen>
+    <dimen name="monogram_size">64dp</dimen>
+    <dimen name="monogram_margin">32dp</dimen>
+    <dimen name="item_card_elevation">2dp</dimen>
+    <dimen name="header_card_elevation">6dp</dimen>
+    <dimen name="item_card_title_text_size">18sp</dimen>
+    <dimen name="item_card_subtitle_text_size">12sp</dimen>
+    <dimen name="item_card_text_left_margin">16dp</dimen>
+    <dimen name="show_summary_vertical_padding">8dp</dimen>
+    <dimen name="show_summary_horizontal_padding">16dp</dimen>
+    <dimen name="description_top_margin">8dp</dimen>
+    <dimen name="standard_text_size">12sp</dimen>
+    <dimen name="episode_card_margin">8dp</dimen>
+    <dimen name="play_button_vertical_padding">8dp</dimen>
+    <dimen name="play_button_horizontal_padding">16dp</dimen>
+    <dimen name="play_button_margin">32dp</dimen>
+    <dimen name="about_box_padding">16dp</dimen>
+    <dimen name="about_box_margin">32dp</dimen>
 </resources>

@@ -12,6 +12,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!--
+        <TextView
+            android:text="Activity listing all of the available episodes for a show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        -->
+
         <LinearLayout
             style="@style/episodeListHeader"
             android:layout_width="match_parent"

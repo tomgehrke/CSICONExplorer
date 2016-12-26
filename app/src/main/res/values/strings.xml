@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CSICON Explorer</string>
     <string name="about_csicon_title">About CSICON</string>
-    <string name="about_csicon_subtitle">Who we are. What we do. How to contact us.</string>
+    <string name="about_csicon_subtitle">Who we are. What we do. Where we came from.</string>
     <string name="show_listing_title">Show Guide</string>
     <string name="show_listing_subtitle">All of the podcasts the network has to offer.</string>
     <string name="show01_title">Coffee With Jeff</string>
@@ -22,4 +22,5 @@
     <string name="show03_episode03_description">Killer Robots, PCs without Porn, and Death Stars. It\'s good to be a Geekdays.</string>
     <string name="play_button">Play</string>
     <string name="stop_button">Stop</string>
+    <string name="about_csicon">CSICON is an independent podcasting network, home to shows like Geekdays, Movieing On, The History Files, Gamepunting, The MMOsketeers and many more, with regular hosts such as Breki Tomasson, Petter Mårtensson, Josh Wodarz and Jeff Kelley.\n\nThe network was founded by Petter and Breki 2011 as a place to gather, produce and distribute the podcasts that they were already creating and which they were planning to create in the future. What started off as one podcast quickly became three, which shortly thereafter was a dozen – and is still growing. Today, the network is getting many tens of thousands of unique listeners every month, and is still rapidly growing both their audience and their stable of shows while also broadening their media exposure into video and text-based content as well.</string>
 </resources>
